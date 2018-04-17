@@ -19,7 +19,7 @@ All system packages updated to latest versions.
 2. All ports blocked except the required(+port 22 , somehow still needed for AWS services even after default port changed).
 3. uwsgi configured to serve animeCatalog with 5 worker threads.
 4. nginx configured to access uwsgi through Unix Socket.
-
+5. Custom user for database, using ident auth for additional security ( Alongwith Postgresql db socket available only to localhost)
 ## Also setup a DigitalOcean server
 For running other projects in together and a central directory for all my applications
 [http://apps.achopra.me]
