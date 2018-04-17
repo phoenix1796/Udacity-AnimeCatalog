@@ -8,12 +8,12 @@ Server access port : 2200
 Application URL: http://35.154.103.81.xip.io/
 
 ## Software installed: 
-Nginx
+1. Nginx
+2. uwsgi server
+3. Postgres
+4. Pip packages: slqalchemy, flask , psycopg2, oauth2client
 
-uwsgi server
-
-Pip packages: slqalchemy, flask , psycopg2, oauth2client
-
+All system packages updated to latest versions.
 ## Configuration changes:
 1. Added the recommended user with proper privileges.
 2. All ports blocked except the required(+port 22 , somehow still needed for AWS services even after default port changed).
