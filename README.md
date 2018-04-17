@@ -15,10 +15,14 @@ uwsgi server
 Pip packages: slqalchemy, flask , psycopg2, oauth2client
 
 ## Configuration changes:
-Added the recommended user with proper privileges.
-All ports blocked except the required(+port 22 , somehow still needed for AWS services even after default port changed).
-uwsgi configured to serve animeCatalog with 5 worker threads.
-nginx configured to access uwsgi through Unix Socket.
+1. Added the recommended user with proper privileges.
+2. All ports blocked except the required(+port 22 , somehow still needed for AWS services even after default port changed).
+3. uwsgi configured to serve animeCatalog with 5 worker threads.
+4. nginx configured to access uwsgi through Unix Socket.
+
+## Also setup a DigitalOcean server
+For running other projects in together and a central directory for all my applications
+[http://apps.achopra.me]
 
 ## Resources used:
 https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uwsgi-and-nginx-on-ubuntu-14-04
