@@ -27,6 +27,8 @@ For running other projects in together and a central directory for all my applic
 ## Resources used:
 https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uwsgi-and-nginx-on-ubuntu-14-04
 
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
+
 https://stackoverflow.com/questions/9353822/connecting-postgresql-with-sqlalchemy
 
 https://stackoverflow.com/questions/23839656/sqlalchemy-no-password-supplied-error
