@@ -9,7 +9,9 @@ Application URL: http://35.154.103.81.xip.io/
 
 ## Software installed: 
 Nginx
+
 uwsgi server
+
 Pip packages: slqalchemy, flask , psycopg2, oauth2client
 
 ## Configuration changes:
